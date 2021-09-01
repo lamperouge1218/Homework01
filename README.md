@@ -2,7 +2,7 @@
 
 ## Description
 
-In order to make this website more accessible and more prevalent in and better optimized for search engins, we have undertaken a full refactoring of the web code. This refactoring has solved a considerable readability for future coders and also has made the site much more accessible not only for SEO but also for those who would use e-readers or TTS to access the site. We learned about proper CSS styling and organizing as well as implementation of semantic HTML to aid readability when going through complex code with multiple different, but related, sections of information and text/images. 
+In order to make this website more accessible and more prevalent in and better optimized for search engins, we have undertaken a full refactoring of the web code. This refactoring has solved a considerable readability issue for future coders and also has made the site much more accessible not only for SEO but also for those who would use e-readers or TTS to access the site. We learned about proper CSS styling and organizing as well as implementation of semantic HTML to aid readability when going through complex code with multiple different, but related, sections of information and text/images. 
 
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
