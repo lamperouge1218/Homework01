@@ -5,10 +5,11 @@
     margin: 0;
 }
 
-/* Main Site Background*/
+/* Main Site Background Color*/
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
@@ -26,7 +27,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Positioning of the In-page Links */
+/* Positioning of the in-page Links */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +41,19 @@ body {
     list-style-type: none;
 }
 
+/* Sets the in-page nav links to be inline at position */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets color for in-page links in header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets font size for all <p> elements */
 p {
     font-size: 16px;
 }
@@ -63,22 +67,26 @@ p {
     background-position: center;
 }
 
+/* Floating images to the left of text in articles */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floating images to the right of text in articles */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Setting the aside to be inline with the section, setting the section to not take up the entire page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Positioning and formatting of the Aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,16 +98,9 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Sets the formatting for the internal information in the aside */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
