@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-
+/* Sets formatting, positioning, and color of the primary header element */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* Formatting for the Horiseon Logo in the top left of the page and makes it so the in-page nav links are to the right of said logo */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Makes the "seo" of Horiseon a slightly different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -53,11 +55,7 @@ a {
     text-decoration: none;
 }
 
-/* Sets font size for all <p> elements */
-p {
-    font-size: 16px;
-}
-
+/* Sets the img digital-marketing-meeting as a background image for the top of the page and formats it appropriately */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,6 +63,18 @@ p {
     background-image: url("../assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Setting the aside to be inline with the section, setting the section not to take up the entire page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Sets font size for all <p> elements */
+p {
+    font-size: 16px;
 }
 
 /* Floating images to the left of text in articles */
@@ -79,11 +89,31 @@ p {
     margin-left: 25px;
 }
 
-/* Setting the aside to be inline with the section, setting the section not to take up the entire page */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Formatting for information within the 3 articles */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets the formatting for the img within the 3 articles */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Sets the font size for h2 headers in the 3 articles and puts some space between header and text */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* Positioning and formatting of the Aside */
@@ -124,33 +154,7 @@ p {
     max-width: 150px;
 }
 
-/* Formatting for information within the 3 articles */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Sets the formatting for the img within the 3 articles */
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Sets the font size for h2 headers in the 3 articles and puts some space between header and text */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Sets formatting for footer element */
 .footer {
     padding: 30px;
     clear: both;
@@ -158,6 +162,7 @@ p {
     text-align: center;
 }
 
+/* Sets font size for h2 element within footer */
 .footer h2 {
     font-size: 20px;
 }

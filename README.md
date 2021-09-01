@@ -1,4 +1,4 @@
-# <Horiseon-Refactoring>
+# Horiseon Refactor Project
 
 ## Description
 
