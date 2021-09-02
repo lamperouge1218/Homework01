@@ -16,7 +16,7 @@ This site is to be used for interacting with us at Horiseon and finding best pra
     
 
 ## Credits
-For this project, we collaborated with [Mark Lindsey](https://github.com/mrl-jr), [Jamie Rossi](https://github.com/wjrossi), and [Dillon Koval]() and used the following tutorials to make this refactor happen:
+For this project, we collaborated with [Mark Lindsey](https://github.com/mrl-jr), [Jamie Rossi](https://github.com/wjrossi), and [Dillon Koval](https://github.com/dillonkkoval) and used the following tutorials to make this refactor happen:
 - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 - [HTML 5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
